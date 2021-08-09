@@ -1,38 +1,222 @@
-.App {
+body, html {
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+}
+
+.card {
+  width: 280px;
+  display: block;
+  margin: 60px auto;
+  /* box-shadow: -2px 3px 14px 2px #929292; */
+  transition: 0.25s;
+}
+
+
+.card-header {
+  height: 250px;
+  padding: 15px;
+  background-size: cover;
+  color: #fff;
+}
+
+.card-header--title {
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.card-body {
+  padding: 0px 15px;
+  background-color: #fff;
+  border: 1px solid #d4d4d4;
+}
+
+.content-overflow{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis 
+}
+
+.duration {
+  font-size: 14px;
+}
+
+.body-content {
+    /* padding-bottom: 10px; */
+    font-size: 14px;
+    /* line-height: 1.8; */
+    font-weight: bold;
+    color: grey;
+}
+
+.button-primary {
+  border: none;
+  box-shadow: none;
+  font-family: inherit;
+  background-color: transparent;
+  color: #341cac;
+  font-size: 15px;
+  transition: 0.25s;
+}
+.button-primary i {
+  padding-right: 4px;
+}
+
+.designer-link {
+  color: #fff;
   text-align: center;
+  font-size: 12px;
+  text-decoration: none;
+  display: block;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Designer credit: https://dribbble.com/shots/1978243-Latest-News */
+body, html {
+  overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.app-header {
+  display: block;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  /* margin-left: 13.5em; */
+  font-family: "CeraPRO-Bold", sans-serif, arial;
+}
+.app-header-title{
+  font-weight: bold;
+  line-height: 2 !important;
+  float: left;
+  padding-bottom: 30px;
+  margin-left: 1em;
+  font-size: 2rem;
+  line-height: 2.8125rem;
+  font-family: "CeraPRO-Bold", sans-serif, arial;
+  color: #03314B;
+  margin-bottom: 0;
+}
+
+.app-title {
+  display: inline-block;
+  width: 100%;
+  margin: 80px 0 0 0;
+  position: relative;
+  color: #fff;
+}
+@media (min-width: 768px) {
+  .app-title {
+    width: 20%;
+    margin: 280px 0 0 0;
+  }
+}
+.app-title h1 {
+  font-size: 52px;
+  margin: 0;
+}
+.app-title p {
+  font-weight: 200;
+  opacity: 0.5;
+}
+
+.app-title-content {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+@media (min-width: 768px) {
+  .app-title-content {
+    width: auto;
+    position: absolute;
+    text-align: left;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.app-card-list {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  white-space: normal;
+  overflow-x: scroll;
+  margin-top: -70px;
+}
+.app-card-list::-webkit-scrollbar {
+  display: none;
 }
 
-.App-link {
-  color: #61dafb;
+.paper-style{
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  white-space: normal;
+  overflow-x: scroll;
+  margin-top: -70px;
+}
+.paper-style::-webkit-scrollbar {
+  display: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (min-width: 768px) {
+  .app-card-list {
+    width: 120%;
+    margin-left: -3em;
+    min-height:435px;
+    margin-top: 0;
   }
-  to {
-    transform: rotate(360deg);
+  .paper-style {
+    width: 93% !important;
+     /*margin-left: 2em; 
+    white-space: nowrap; */
+    margin-top: 0;
   }
+}
+
+.paper-style .card {
+  margin: 30px 20px;
+  display: inline-block;
+}
+.paper-style .card .card-body {
+  white-space: normal;
+}
+
+.app-card-list .card {
+  margin: 40px 13px;
+  display: inline-block;
+}
+.app-card-list .card .card-body {
+  white-space: normal;
+}
+
+.designer-link {
+  display: inline-block;
+  padding-top: 40px;
+}
+.MuiTab-root{
+  text-transform:none !important;
+}
+.MuiButton-textPrimary{
+  color: #000000 !important;
+  text-transform:none !important;
+  font-size: 17px !important;
+  padding: 1em !important;
+}
+
+MuiButton-containedSizeLarge {
+  padding: 8px 42px !important;
+  font-size: 0.9375rem !important;
+}
+
+.MuiButton-containedPrimary {
+  color: #000 !important;
+  background-color: #83e280 !important;
+  text-transform: none !important;
+  font-weight: bold !important;
+}
+
+.footer {
+  font-family: "CeraPRO";
+  background: #F1F6F4;
+  width: 100%;
+  font-weight: bold;
 }

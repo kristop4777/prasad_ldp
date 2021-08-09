@@ -6,6 +6,8 @@
   cursor: pointer;
   display: inline-block;
   line-height: 1;
+  font-weight: bold;
+  font-family: sans-serif;
 }
 .storybook-button--primary {
   color: white;
@@ -27,4 +29,27 @@
 .storybook-button--large {
   font-size: 16px;
   padding: 12px 24px;
+}
+
+/* custom classes */
+.book-card__primary-action {
+  padding: 1rem 0;
+  color: #0365F2;
+  border: none;
+  font-size: 16px;
+  text-align: center;
+  width: 113%;
+  margin-left: -1em;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+
+.book-card__primary-action--visible {
+  display: block;
+}
+.book-card__primary-action:hover {
+  color: #ffffff;
+  background-color: #0365F2 !important;
+  cursor: pointer;
 }
