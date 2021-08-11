@@ -1,6 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import logo from './logo.svg';
 import './App.css';
 import Card from './stories/components/organisms/Card'
 import AppHeader from './stories/components/molecules/AppHeader'
@@ -71,8 +69,6 @@ function App() {
   const handleFinished=(card) => {  
     if(card.finished == "false"){  
         card.finished = "true";
-        // let copy = [...finshedBooks];
-        // copy = [...copy, card];   
         let copy = []
         copy.push(card);
         copy.push(...finshedBooks);
