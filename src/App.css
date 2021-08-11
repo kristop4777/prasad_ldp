@@ -70,7 +70,8 @@ body, html {
   text-align: center;
   font-size: 12px;
   text-decoration: none;
-  display: block;
+  display: inline-block;
+  padding-top: 40px;
 }
 
 .app-header {
@@ -88,8 +89,7 @@ body, html {
   padding-bottom: 30px;
   margin-left: .8em;
   font-size: 2rem;
-  line-height: 2.8125rem;
-  font-family: "system-ui";
+  font-family: system-ui;
   color: #03314B;
   margin-bottom: 0;
 }
@@ -187,10 +187,6 @@ body, html {
   white-space: normal;
 }
 
-.designer-link{
-  display: inline-block;
-  padding-top: 40px;
-}
 .MuiTab-root{
   text-transform:none !important;
 }
@@ -214,7 +210,7 @@ body, html {
 }
 
 .footer {
-  font-family: "CeraPRO";
+  font-family: CeraPRO;
   background: #F1F6F4;
   width: 100%;
   font-weight: bold;
