@@ -1,6 +1,7 @@
 body, html {
   font-family: "Montserrat", sans-serif;
   background-color: white;
+  overflow-x: hidden;
 }
 
 .card {
@@ -33,11 +34,14 @@ body, html {
 .content-overflow{
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis 
+  text-overflow: ellipsis;
+  font-family: system-ui;
+  font-size: 20px;
 }
 
 .duration {
   font-size: 14px;
+  padding-bottom: 1em;
 }
 
 .body-content {
@@ -69,11 +73,6 @@ body, html {
   display: block;
 }
 
-/* Designer credit: https://dribbble.com/shots/1978243-Latest-News */
-body, html {
-  overflow-x: hidden;
-}
-
 .app-header {
   display: block;
   color: black;
@@ -87,10 +86,10 @@ body, html {
   line-height: 2 !important;
   float: left;
   padding-bottom: 30px;
-  margin-left: 1em;
+  margin-left: .8em;
   font-size: 2rem;
   line-height: 2.8125rem;
-  font-family: "CeraPRO-Bold", sans-serif, arial;
+  font-family: "system-ui";
   color: #03314B;
   margin-bottom: 0;
 }
@@ -165,7 +164,7 @@ body, html {
     margin-top: 0;
   }
   .paper-style {
-    width: 93% !important;
+    width: 97% !important;
      /*margin-left: 2em; 
     white-space: nowrap; */
     margin-top: 0;
@@ -188,7 +187,7 @@ body, html {
   white-space: normal;
 }
 
-.designer-link {
+.designer-link{
   display: inline-block;
   padding-top: 40px;
 }
@@ -202,7 +201,7 @@ body, html {
   padding: 1em !important;
 }
 
-MuiButton-containedSizeLarge {
+.MuiButton-containedSizeLarge {
   padding: 8px 42px !important;
   font-size: 0.9375rem !important;
 }
