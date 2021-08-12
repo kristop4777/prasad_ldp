@@ -165,6 +165,8 @@ body, html {
   }
   .paper-style {
     width: 97% !important;
+     /*margin-left: 2em; 
+    white-space: nowrap; */
     margin-top: 0;
   }
 }

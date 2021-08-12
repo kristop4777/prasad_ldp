@@ -21,7 +21,7 @@ const AppHeader = () => {
           <table style={style}>
             <tr>
               <td>
-                <img src={Code} className={useStyles.root} width="200" height="100"/>
+                <img src={Code} className="app-header" width="200" height="100"/>
               </td>
               <td>
                 <img src={Search} width="30" height="30"/>
@@ -35,16 +35,17 @@ const AppHeader = () => {
               <td>
                  <Button size="large" color="primary">Highlights</Button>  
               </td>
-              <td>              
+              <td>
+              
               </td>
               <td>
               <Button variant="contained" size="large" color="primary">
-                  Upgrade to Premium
-                </Button>
+          Upgrade to Premium
+        </Button>
               </td>
-            </tr>
-          </table>
-      </div>      
+          </tr></table>
+      </div>
+      
     )
 }
 export default AppHeader

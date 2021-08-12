@@ -3,6 +3,7 @@ import Button from  "../../../stories/Button"
 import '../../../App.css'
 
   const CardBody = ({card, handleFinished}) => {
+    console.log(card.finished);
     return (
       <div className="card-body">                 
         <h2 className="content-overflow">{card.title}</h2>        

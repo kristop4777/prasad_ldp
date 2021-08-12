@@ -42,9 +42,9 @@ const AppHeader = () => {
                   Upgrade to Premium
                 </Button>
               </td>
-            </tr>
-          </table>
-      </div>      
+          </tr></table>
+      </div>
+      
     )
 }
 export default AppHeader

@@ -159,12 +159,14 @@ body, html {
 @media (min-width: 768px) {
   .app-card-list {
     width: 120%;
-    margin-left: -5em;
+    margin-left: -3em;
     min-height:435px;
     margin-top: 0;
   }
   .paper-style {
     width: 97% !important;
+     /*margin-left: 2em; 
+    white-space: nowrap; */
     margin-top: 0;
   }
 }

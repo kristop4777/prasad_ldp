@@ -5,7 +5,7 @@ import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles({
     root: {
-      height: 116,
+      height: 216,
       flexGrow: 1,
       maxWidth: 400,
     },

@@ -3,9 +3,9 @@ import { makeStyles} from '@material-ui/core/styles';
 import Code from '../../assets/logo1.jpg'
 import Button from '@material-ui/core/Button';
 
-const useStyles = makeStyles({
+const classes = makeStyles({
     root: {
-      height: 116,
+      height: 216,
       flexGrow: 1,
       maxWidth: 400,
     },

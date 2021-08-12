@@ -5,7 +5,7 @@ import '../../../App.css'
 const Card = ({card, handleFinished}) => {
         return (
         <article className="card">
-          <CardHeader image={card.image}/>
+          <CardHeader card={card} image={card.image}/>
           <CardBody card={card} handleFinished={handleFinished} />
         </article>
       )

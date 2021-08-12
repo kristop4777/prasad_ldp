@@ -1,6 +1,6 @@
 import React from "react"
 import '../../../App.css'
-const CardHeader = ({image}) => {
+const CardHeader = ({image, card}) => {
       var style = { 
           backgroundImage: 'url(' + image + ')',
       };

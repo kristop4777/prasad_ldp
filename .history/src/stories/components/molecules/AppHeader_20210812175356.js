@@ -35,16 +35,17 @@ const AppHeader = () => {
               <td>
                  <Button size="large" color="primary">Highlights</Button>  
               </td>
-              <td>              
+              <td>
+              
               </td>
               <td>
               <Button variant="contained" size="large" color="primary">
-                  Upgrade to Premium
-                </Button>
+          Upgrade to Premium
+        </Button>
               </td>
-            </tr>
-          </table>
-      </div>      
+          </tr></table>
+      </div>
+      
     )
 }
 export default AppHeader
